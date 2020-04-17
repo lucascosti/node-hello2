@@ -1,0 +1,19 @@
+{
+  "name": "hello2",
+  "version": "1.0.0",
+  "description": "Everything is awesome.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascosti/node-hello2.git"
+  },
+  "author": "Lucas Costi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucascosti/node-hello2/issues"
+  },
+  "homepage": "https://github.com/lucascosti/node-hello2#readme"
+}
