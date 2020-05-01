@@ -1,0 +1,21 @@
+{
+  "editor.tabSize": 2,
+  "editor.acceptSuggestionOnEnter": "off",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.renderWhitespace": "boundary",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.renderCharacters": false,
+  "editor.rulers": [
+    40,
+    80
+  ],
+  "editor.selectionHighlight": false,
+  "editor.renderLineHighlight": "all",
+  "workbench.editor.restoreViewState": false,
+  "workbench.activityBar.visible": true,
+  "editor.occurrencesHighlight": false,
+  "editor.wordWrap": "bounded"
+ }
