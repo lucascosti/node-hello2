@@ -31,7 +31,7 @@ jobs:
   
   label_pr:
     name: Label pull request for review
-    if: ${{ github.event_name }} == 'pull_request'
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
