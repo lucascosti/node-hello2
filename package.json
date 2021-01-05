@@ -1,6 +1,6 @@
 {
-  "name": "@lucascosti/hello2",
-  "version": "1.0.1",
+  "name": "hello2",
+  "version": "1.0.2",
   "description": "Everything is awesome.",
   "main": "app.js",
   "scripts": {
