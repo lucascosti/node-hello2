@@ -1,12 +1,12 @@
 var expect  = require('chai').expect;
-var request = require('request');
+var fetch = require('node-fetch');
 var app = require('../app.js');
 
-it('Page content test', (done) => {
-  request.get('http://localhost:3000', function (err, res, body) {
-      expect(res.statusCode).to.equal(200);
-      expect(res).to.have.property('body');
-      expect(res).property('body').to.match(/Hello world, everything is awesome/);
-      done();
-  });
-});
+it('Page content test', async () => {
+  let response = await fetch('http://127.0.0.1:3000'); // 127.0.0.1 because of https://github.com/node-fetch/node-fetch/issues/1624
+  let body = await response.text();
+  // console.log(response.status);
+  // console.log(body);
+  expect(response.status).to.equal(200);
+  expect(body).to.match(/Hello world, everything is awesome/);
+})
